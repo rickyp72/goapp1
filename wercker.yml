@@ -36,7 +36,7 @@ build:
         code: |
           cd $WERCKER_SOURCE_DIR
           go version
-          sudo go get -u github.com/rickyp72/goapp1
+          go get github.com/rickyp72/goapp1
           export PATH=$WERCKER_SOURCE_DIR/bin:$PATH
           glide install
 
